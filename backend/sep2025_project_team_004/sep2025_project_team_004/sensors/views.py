@@ -8,7 +8,7 @@ from .serializers import AddSensorSerializer, SensorDetailSerializer, RegisterSe
 
 import requests
 import os
-
+#1
 class AddSensorView(APIView):
     permission_classes = [IsAuthenticated]
 
